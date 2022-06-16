@@ -1,13 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import styles from '../../styles/Nav.module.scss';
+import styles from './../../styles/NavBar.module.scss';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavDropdown } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 function NavBar() {
   return (
-    <Navbar bg='light' expand='lg'>
+    <Navbar bg='light' expand='lg' className={styles.sticky}>
       <Navbar.Brand href='#home'>React-Bootstrap</Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
