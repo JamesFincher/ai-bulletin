@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 const Image = () => {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '15rem' }} className={styles.card}>
       <Card.Img variant='top' src='https://picsum.photos/200' />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
