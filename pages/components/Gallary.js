@@ -7,9 +7,7 @@ const Gallary = (props) => {
   console.log(data);
   return (
     <Container className={styles.container}>
-      <p>`hello `</p>
       {data.map((item) => {
-        console.log(item, 'item');
         return (
           <ImageCard
             key={item.id}
